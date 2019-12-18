@@ -21,6 +21,7 @@ WebDriver driver; // creating object of WebDriver Class
 		Thread.sleep(3000);
 		
 		
+		
 		driver.get("https://www.google.com/");	//opening any URL
 		
 		Thread.sleep(2000);
