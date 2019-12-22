@@ -17,10 +17,9 @@ WebDriver driver; // creating object of WebDriver Class
 			
 		System.setProperty("webdriver.chrome.driver", "C:/Users/jay/Desktop/Programming Files/chromedriver.exe");
 		driver = new ChromeDriver();
+	
 		
 		Thread.sleep(3000);
-		
-		
 		
 		driver.get("https://www.google.com/");	//opening any URL
 		
