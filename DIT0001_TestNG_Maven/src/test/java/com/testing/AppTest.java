@@ -12,6 +12,8 @@ public class AppTest
  
 WebDriver driver; // creating object of WebDriver Class
 	
+
+
 	@BeforeMethod
 	public void openBrowserOpenURL() throws InterruptedException {
 			
